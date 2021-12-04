@@ -17,6 +17,8 @@
 		FDA237B1275AD56A00E04A34 /* Todo_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA237B0275AD56A00E04A34 /* Todo_ListTests.swift */; };
 		FDA237BB275AD56A00E04A34 /* Todo_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA237BA275AD56A00E04A34 /* Todo_ListUITests.swift */; };
 		FDA237BD275AD56A00E04A34 /* Todo_ListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA237BC275AD56A00E04A34 /* Todo_ListUITestsLaunchTests.swift */; };
+		FDA237CA275C1CE200E04A34 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA237C9275C1CE200E04A34 /* Task.swift */; };
+		FDA237CC275C1FFF00E04A34 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA237CB275C1FFF00E04A34 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		FDA237B6275AD56A00E04A34 /* Todo-ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Todo-ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA237BA275AD56A00E04A34 /* Todo_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_ListUITests.swift; sourceTree = "<group>"; };
 		FDA237BC275AD56A00E04A34 /* Todo_ListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_ListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDA237C9275C1CE200E04A34 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		FDA237CB275C1FFF00E04A34 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				FDA237A4275AD56A00E04A34 /* LaunchScreen.storyboard */,
 				FDA237A7275AD56A00E04A34 /* Info.plist */,
 				FDA2379F275AD56700E04A34 /* Todo_List.xcdatamodeld */,
+				FDA237C9275C1CE200E04A34 /* Task.swift */,
+				FDA237CB275C1FFF00E04A34 /* User.swift */,
 			);
 			path = "Todo-List";
 			sourceTree = "<group>";
@@ -263,6 +269,8 @@
 			files = (
 				FDA2379B275AD56700E04A34 /* ViewController.swift in Sources */,
 				FDA23797275AD56700E04A34 /* AppDelegate.swift in Sources */,
+				FDA237CC275C1FFF00E04A34 /* User.swift in Sources */,
+				FDA237CA275C1CE200E04A34 /* Task.swift in Sources */,
 				FDA23799275AD56700E04A34 /* SceneDelegate.swift in Sources */,
 				FDA237A1275AD56700E04A34 /* Todo_List.xcdatamodeld in Sources */,
 			);
