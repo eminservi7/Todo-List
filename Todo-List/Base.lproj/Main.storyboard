@@ -16,28 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mnx-ZK-o8z">
-                                <rect key="frame" x="20" y="77" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbH-Vc-qfc">
+                                <rect key="frame" x="20" y="120" width="374" height="73"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                 <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1D-3o-eqI">
-                                <rect key="frame" x="186" y="75" width="42" height="25"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbH-Vc-qfc">
-                                <rect key="frame" x="20" y="120" width="42" height="25"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" systemColor="labelColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2f-bU-NRA">
-                                <rect key="frame" x="327" y="73" width="67" height="31"/>
+                                <rect key="frame" x="327" y="141" width="67" height="31"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Button">
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mbR-6m-e28"/>
                                 </connections>
@@ -46,21 +37,16 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Mnx-ZK-o8z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="33" id="3rt-Ux-0Z8"/>
-                            <constraint firstItem="d1D-3o-eqI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6XL-lR-ouH"/>
-                            <constraint firstItem="Mnx-ZK-o8z" firstAttribute="centerY" secondItem="d1D-3o-eqI" secondAttribute="centerY" id="Biq-ia-5TK"/>
-                            <constraint firstItem="Mnx-ZK-o8z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="C2i-01-IYp"/>
-                            <constraint firstItem="gbH-Vc-qfc" firstAttribute="top" secondItem="Mnx-ZK-o8z" secondAttribute="bottom" constant="22" id="Eni-nL-maI"/>
-                            <constraint firstItem="d1D-3o-eqI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="31" id="WPq-K6-Zk9"/>
-                            <constraint firstItem="n2f-bU-NRA" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="WSh-Mg-Q4B"/>
-                            <constraint firstItem="Mnx-ZK-o8z" firstAttribute="leading" secondItem="gbH-Vc-qfc" secondAttribute="leading" id="b20-8Q-aun"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gbH-Vc-qfc" secondAttribute="bottom" constant="717" id="b4q-h2-uni"/>
-                            <constraint firstItem="Mnx-ZK-o8z" firstAttribute="baseline" secondItem="n2f-bU-NRA" secondAttribute="baseline" id="qbE-xz-lK1"/>
+                            <constraint firstItem="n2f-bU-NRA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="97" id="04X-fK-iOD"/>
+                            <constraint firstItem="gbH-Vc-qfc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="6oa-AD-jx8"/>
+                            <constraint firstItem="gbH-Vc-qfc" firstAttribute="centerY" secondItem="n2f-bU-NRA" secondAttribute="centerY" id="Tel-WM-2Wc"/>
+                            <constraint firstItem="gbH-Vc-qfc" firstAttribute="trailing" secondItem="n2f-bU-NRA" secondAttribute="trailing" id="ey8-oP-iNE"/>
+                            <constraint firstItem="gbH-Vc-qfc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="gZb-sk-COk"/>
+                            <constraint firstItem="gbH-Vc-qfc" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="rCb-Tm-d1e"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="label" destination="Mnx-ZK-o8z" id="VHO-TX-A1L"/>
-                        <outlet property="status" destination="d1D-3o-eqI" id="6pp-nX-gTH"/>
+                        <outlet property="statusButton" destination="n2f-bU-NRA" id="8wp-rQ-GYH"/>
                         <outlet property="text" destination="gbH-Vc-qfc" id="u6i-Bv-M4I"/>
                     </connections>
                 </viewController>
@@ -70,6 +56,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
