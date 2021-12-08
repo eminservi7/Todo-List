@@ -12,17 +12,14 @@ class Task {
     var text:String?
     
     var date:Date?
-    
-    var header:String?
-    
+        
     var status:Bool?// task finished or will do
     //can be use enum - true finished - false 
     
-    init(text: String,date:Date,header:String,status:Bool){
+    init(text: String,date:Date,status:Bool){
         self.text = text
         self.date = date
         self.status = false
-        self.header = header
     }
     static func generateTaskList() -> [Task]
     {

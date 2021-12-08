@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "033943DD-C838-49A8-9F44-3F6CD5274F78"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11D43FAB-B3D4-430F-B7BB-FB28A0C54433"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Todo-List/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC2FD65D-011B-4C0A-A097-CADCE2C95A0D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Todo-List/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "AC2FD65D-011B-4C0A-A097-CADCE2C95A0D - f50ea13f3d68751b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Todo_List.ViewController.label.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Todo-List"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emrekok/Documents/GitHub/Todo-List/Todo-List/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "AC2FD65D-011B-4C0A-A097-CADCE2C95A0D - cdd6760914578987"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Todo_List.ViewController.label.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Todo-List"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emrekok/Documents/GitHub/Todo-List/Todo-List/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "AC2FD65D-011B-4C0A-A097-CADCE2C95A0D - 6e631866e71b954a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Todo_List.ViewController.label.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Todo-List"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emrekok/Documents/GitHub/Todo-List/Todo-List/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "AC2FD65D-011B-4C0A-A097-CADCE2C95A0D - a085210d4ec8b5ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Todo_List.ViewController.label.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Todo-List"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emrekok/Documents/GitHub/Todo-List/Todo-List/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "AC2FD65D-011B-4C0A-A097-CADCE2C95A0D - 6c6c905d261f471b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Todo_List.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Todo_List.ViewController"
+                  moduleName = "Todo-List"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emrekok/Documents/GitHub/Todo-List/Todo-List/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "AC2FD65D-011B-4C0A-A097-CADCE2C95A0D - 5b5269dafa5f8a57"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Todo_List.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Todo_List.ViewController&gt;"
+                  moduleName = "Todo-List"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emrekok/Documents/GitHub/Todo-List/Todo-List/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
